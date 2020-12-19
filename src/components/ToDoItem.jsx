@@ -11,6 +11,7 @@ export const ToDoItem = (props) => {
     }
   }
 
+
   const onCheckItem = () => {
     if (onCheck) {
       onCheck(item.id);
