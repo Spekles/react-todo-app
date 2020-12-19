@@ -11,7 +11,6 @@ export const ToDoForm = (props) => {
     }
     form.resetFields();
   }
-
   return (
     <Form className="todo-form" form={form} layout={'inline'} onFinish={onFinish}>
       <Form.Item name="title" className="todo-form-input">

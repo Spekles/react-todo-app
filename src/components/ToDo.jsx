@@ -17,8 +17,7 @@ export const ToDo = () => {
             key={todo.id}
             item={todo}
             onRemove={onRemove} 
-            onCheck={onCheck} 
-          />) }
+            onCheck={onCheck} />) }
       </ul>
     )
   }
